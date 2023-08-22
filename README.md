@@ -6,7 +6,7 @@ This project aims to create a machine learning model to classify breast tumors a
 
 ![Breast Cancer](img.jpg)
 ![Reapresentation of Data](Screenshot 2023-08-22 140320.jpg)
-
+![Breast Cancer](Screenshot2023-08-22140320.jpg)
 
 ## Dataset
 
