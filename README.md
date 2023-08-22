@@ -11,41 +11,47 @@ This project aims to create a machine learning model to classify breast tumors a
 We have used the Scikit-Learn `load_breast_cancer` dataset, which consists of features computed from digitized breast mass images. These features describe characteristics of cell nuclei present in the images. The target variable indicates whether a tumor is malignant (0) or benign (1).
 
 - Total Patients: 569
-- Features: 31
+- Features: 30 (mean, standard error, and worst/largest values of various attributes)
 - Data Size: 137.9 KB
+
+### Feature Description
+
+The dataset includes 30 features that provide information about the cell nuclei characteristics. Here are some of the features:
+
+- 'mean radius'
+- 'mean texture'
+- 'mean perimeter'
+- 'mean area'
+- 'mean smoothness'
+- 'mean compactness'
+- 'mean concavity'
+- 'mean concave points'
+- 'mean symmetry'
+- 'mean fractal dimension'
+- 'radius error'
+- 'texture error'
+- 'perimeter error'
+- 'area error'
+- 'smoothness error'
+- 'compactness error'
+- 'concavity error'
+- 'concave points error'
+- 'symmetry error'
+- 'fractal dimension error'
+- 'worst radius'
+- 'worst texture'
+- 'worst perimeter'
+- 'worst area'
+- 'worst smoothness'
+- 'worst compactness'
+- 'worst concavity'
+- 'worst concave points'
+- 'worst symmetry'
+- 'worst fractal dimension'
 
 ## Data Description
 
-The dataset contains 569 patient records, each with 31 numeric features. These features include various statistical measures and characteristics of cell nuclei. Here's a summary of the numerical distribution of the data:
-
-- Mean:
-  - Feature 1: [mean_value_1]
-  - Feature 2: [mean_value_2]
-  - ...
-- Standard Deviation:
-  - Feature 1: [std_deviation_1]
-  - Feature 2: [std_deviation_2]
-  - ...
-- Minimum:
-  - Feature 1: [min_value_1]
-  - Feature 2: [min_value_2]
-  - ...
-- Maximum:
-  - Feature 1: [max_value_1]
-  - Feature 2: [max_value_2]
-  - ...
-- 25th Percentile:
-  - Feature 1: [25_percentile_1]
-  - Feature 2: [25_percentile_2]
-  - ...
-- Median (50th Percentile):
-  - Feature 1: [median_1]
-  - Feature 2: [median_2]
-  - ...
-- 75th Percentile:
-  - Feature 1: [75_percentile_1]
-  - Feature 2: [75_percentile_2]
-  - ...
+The dataset contains 569 patient records, each with 30 numeric features. These features represent various statistical measures and characteristics of cell nuclei. You can further explore the numerical distribution of the data to understand the data's statistics.
 
 ## Machine Learning Pipeline
 
@@ -79,4 +85,4 @@ This project is licensed under the [License Name](LICENSE) - see the [LICENSE](L
 
 ---
 
-**Note:** Replace placeholders like `[mean_value_1]` with actual statistics from your dataset and customize the README with specific details about your project's implementation and results.
+**Note:** Customize the README with specific details about your project's implementation and results. If you have any additional information to include or specific goals for your project, feel free to add them to the README.
