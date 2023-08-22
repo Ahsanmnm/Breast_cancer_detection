@@ -78,14 +78,5 @@ We will report the model's performance metrics and provide visualizations of imp
 
 Instructions for running and reproducing the project's results will be provided in the project code and documentation.
 
-## Contributing
-
-Contributions to this project are welcome. You can contribute by opening issues for bug reports or feature requests or by submitting pull requests with improvements.
-
-## License
-
-This project is licensed under the [License Name](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-**Note:** Customize the README with specific details about your project's implementation and results. If you have any additional information to include or specific goals for your project, feel free to add them to the README.
