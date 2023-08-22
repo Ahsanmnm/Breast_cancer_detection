@@ -5,6 +5,8 @@
 This project aims to create a machine learning model to classify breast tumors as malignant or benign based on features extracted from digitized fine needle aspiration (FNA) images of breast masses. We use supervised machine learning classifiers to achieve this classification task.
 
 ![Breast Cancer](img.jpg)
+![Reapresentation of Data](Screenshot 2023-08-22 140320.jpg)
+
 
 ## Dataset
 
