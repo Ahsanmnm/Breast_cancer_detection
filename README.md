@@ -72,7 +72,54 @@ We will follow these steps to build and evaluate our breast cancer classificatio
 
 ## Results
 
-We will report the model's performance metrics and provide visualizations of important factors in the classification process. Results will be included in the project's documentation.
+## Results
+
+We evaluated our breast cancer classification model using a variety of machine learning classifiers, and here are the accuracy scores for each classifier:
+
+### Support Vector Classifier
+
+- Without Standard Scaling: 57.89%
+- With Standard Scaling: 96.49%
+
+### Logistic Regression
+
+- Without Standard Scaling: 97.37%
+- With Standard Scaling: 55.26%
+
+### K – Nearest Neighbor Classifier
+
+- Without Standard Scaling: 93.86%
+- With Standard Scaling: 57.89%
+
+### Naive Bayes Classifier
+
+- Without Standard Scaling: 94.74%
+- With Standard Scaling: 93.86%
+
+### Decision Tree Classifier
+
+- Without Standard Scaling: 94.74%
+- With Standard Scaling: 75.44%
+
+### Random Forest Classifier
+
+- Without Standard Scaling: 97.37%
+- With Standard Scaling: 75.44%
+
+### Adaboost Classifier
+
+- Without Standard Scaling: 94.74%
+- With Standard Scaling: 94.74%
+
+### XGBoost Classifier
+
+- Without Standard Scaling: 98.24%
+- With Standard Scaling: 98.24%
+
+These results demonstrate the performance of each classifier on the breast cancer classification task. The accuracy scores vary between classifiers, and it's important to note that the choice of preprocessing techniques, hyperparameter tuning, and feature selection can influence these results. You can refer to the project documentation for a more detailed analysis of each classifier's performance and potential improvements.
+
+We also provide visualizations of important factors in the classification process, such as feature importance plots and ROC curves, in our project documentation.
+
 
 ## Usage
 
