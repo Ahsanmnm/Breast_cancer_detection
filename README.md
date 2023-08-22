@@ -15,7 +15,7 @@ We have used the Scikit-Learn `load_breast_cancer` dataset, which consists of fe
 - Features: 30 (mean, standard error, and worst/largest values of various attributes)
 - Data Size: 137.9 KB
 
-  ![Breast Cancer](Screenshot 2023-08-22 140320.jpg)
+![Reapresentation of Data](Screenshot 2023-08-22 140320.jpg)
 
 ### Feature Description
 
