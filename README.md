@@ -1,6 +1,6 @@
 # Breast Cancer Classification with Machine Learning
 
-![Breast Cancer](breast_cancer_image.png)
+![Breast Cancer](img.png)
 
 ## Introduction
 
