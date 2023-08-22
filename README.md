@@ -119,7 +119,7 @@ These results demonstrate the performance of each classifier on the breast cance
 We also provide visualizations of important factors in the classification process, such as feature importance plots and ROC curves, in our project documentation.
 ## Conclusion
 
-In this project, we explored various supervised classification algorithms to create a breast cancer classification model. Our objective was to achieve high accuracy in distinguishing between malignant and benign tumors. Here's what we discovered:
+In this project, I explored various supervised classification algorithms to create a breast cancer classification model. Our objective was to achieve high accuracy in distinguishing between malignant and benign tumors. Here's what discovered:
 
 - We trained a variety of supervised classification algorithms, including Support Vector Classifier, Logistic Regression, K – Nearest Neighbor Classifier, Naive Bayes Classifier, Decision Tree Classifier, Random Forest Classifier, Adaboost Classifier, and XGBoost Classifier.
 
@@ -127,7 +127,7 @@ In this project, we explored various supervised classification algorithms to cre
 
 - Ultimately, we selected the XGBoost Classifier as our model of choice due to its outstanding performance.
 
-As Machine Learning Engineers, we understand the importance of maintaining model accuracy over time. It's crucial to note that the performance of machine learning models can degrade over time due to changes in data distributions and other factors. Therefore, we recommend periodic model retraining to sustain accuracy and ensure the continued reliability of the model. We hope that this project serves as a valuable resource for breast cancer classification using machine learning techniques.
+As Machine Learning Engineer, I understand the importance of maintaining model accuracy over time. It's crucial to note that the performance of machine learning models can degrade over time due to changes in data distributions and other factors. Therefore, I recommend periodic model retraining to sustain accuracy and ensure the continued reliability of the model. I hope that this project serves as a valuable resource for breast cancer classification using machine learning techniques.
 
 
 ## Usage
